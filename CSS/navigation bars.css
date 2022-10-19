@@ -1,0 +1,27 @@
+body{
+  background-color: #a39d9d;
+}
+.nbar{
+  background-color: #242222;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+a:visited{
+  background-color: none;
+  color:white;
+}
+a:active{
+ background-color: yellow;
+}
+a:link{
+  background-color: #242222;
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  left: 40px;
+  color: white;
+}
+a:hover{
+  background-color: #0d0c0c;
+  text-decoration: underline;
+}

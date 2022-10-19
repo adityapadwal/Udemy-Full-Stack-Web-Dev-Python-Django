@@ -1,0 +1,43 @@
+body{
+  background-color: #c1f5db;
+}h1{
+  text-transform: uppercase;
+  font-family: fantasy;
+  color: #014020;
+}
+li,p{
+  line-height: 18px;
+  font-family: cursive;
+}
+/*img{
+  border: 5px solid #0a2b04;
+  width: 200px ;
+  height: 200px;
+}*/
+.smIcon{
+  width: 200px;
+  height: 200px;
+  border: 5px solid #0a2b04;
+}
+.Cricket{
+  width: 300px;
+  height: 250px;
+  border: 7px dotted #0a2b04;
+}
+.red{
+  background-color: red;
+}
+#IDimage{
+  border: 5px solid #0a2b04 ;
+  height: 300px;
+  width: 300px;
+}
+div{
+  background-color: #1dbd00
+}
+.textback{
+  background-color:#74c765
+}
+#John{
+  background-color: yellow;
+}

@@ -1,0 +1,18 @@
+a:visited{
+  background-color: pink;
+}
+a:active{
+ background-color: yellow;
+}
+a:link{
+  background-color: yellow;
+  text-decoration: none;
+  padding: 20px;
+  position: relative;
+  left: 40px;
+}
+a:hover{
+  background-color: red;
+  text-decoration: underline;
+}
+/* (Note) All of the things mentioned in link are getting "inherited " in hover*/

@@ -1,0 +1,25 @@
+body{
+  background-color:#23d5db;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+font-family: fantasy;
+color:#d10808;
+}
+h3{
+  text-transform: capitalize;
+  text-align: center;
+  color:#ff6200;
+}
+h2{
+  color:#ff0062;
+  font-family: monospace;
+}
+ul{
+  color:#ff0000;
+  font-family: cursive;
+}
+h4, h5{
+  color:#ff0062
+}

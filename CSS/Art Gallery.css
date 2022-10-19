@@ -1,0 +1,77 @@
+body{
+  background-color: #80ff93;
+}
+.header{
+  background-color: #c2fccb;
+  border: 7px solid #103615;
+  border-radius: 25px;
+  position: relative;
+  text-align: center;
+  left: 600px;
+  width: 300px;
+}
+.header1{
+background-color: #c2fccb;
+
+position: relative;
+text-align: center;
+left: 600px;
+width: 300px;
+margin-top: 20px;
+padding: 1px;
+}
+.paintings{
+  border: 3px solid #103615;
+  margin: 30px;
+}
+.nested{
+  background-color:#c2fccb;
+}
+.smallbox{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: 20px fixed #103615;
+  background-color: #c2fccb;
+  margin: 5px;
+
+}
+#Copyright{
+  position:fixed;
+  bottom: 10px;
+  left: 0px;
+}
+.haw1{
+  position: relative;
+  left: 25px;
+  top: 200px;
+  height: 90px;
+  width: 400px;
+  background-color:#c2fccb ;
+  border: 3px solid #103615;
+  text-align: center;
+
+}
+.Adi{
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+}
+.paintings{
+  filter: grayscale(100%);
+}
+.paintings:hover{
+  filter: grayscale(0%);
+}
+.paintings:hover .titles{
+  display: block;
+}
+.titles >p{
+  float: left;
+  padding-right: 125px;
+}
+.titles{
+  position: relative;
+  left: 30px;
+  display: none;
+}

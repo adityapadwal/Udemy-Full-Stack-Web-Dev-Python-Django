@@ -1,0 +1,5 @@
+Navigating- pwd, ls, cd.
+=>pwd stands for print working directory
+>ls stands for list. ls shows you all the files present in the current 
+directory
+=>cd stands for change directory 

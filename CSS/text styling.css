@@ -1,0 +1,33 @@
+  body{
+    background-color: #cc6dd6
+  }
+  h1
+  {
+     text-align: center;
+     color: red;
+     text-transform:uppercase;
+  }
+  h2
+  {
+    text-align: center;
+    color: gold;
+    text-transform: uppercase;
+  }
+  h3
+  {
+    text-align: center;
+    color: gold;
+    text-transform: uppercase;
+  }
+  h5{
+    text-transform: capitalize;
+    color: blue;
+    text-align: left;
+  }
+  p{
+    color: green;
+    line-height: 10px;
+    text-indent: 80px;
+    word-spacing: 0.5px;
+    font-family: cursive;
+  }

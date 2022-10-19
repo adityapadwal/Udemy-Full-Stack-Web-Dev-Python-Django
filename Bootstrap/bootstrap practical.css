@@ -1,0 +1,9 @@
+.jumbotron{
+  background-image: url(cafe.jpg);
+  background-color: grey;
+  color: red;
+}
+.navbar{
+  background-color:yellow;
+  color: white;
+}

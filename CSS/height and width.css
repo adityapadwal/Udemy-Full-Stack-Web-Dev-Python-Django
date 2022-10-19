@@ -1,0 +1,20 @@
+.haw{
+  height: 10px;
+  width: 200px; background-color: blue;
+}
+.haw1{
+  position: relative;
+  left: 100px;
+  top: 10px;
+  height: 40px;
+  width: 200px;
+  background-color: orange;
+}
+.haw2{
+  position: relative;
+  left: 200px;
+  top: 20px;
+  height: 80px;
+  width: 400px;
+  background-color: red;
+}

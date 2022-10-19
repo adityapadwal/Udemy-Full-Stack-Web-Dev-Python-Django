@@ -1,0 +1,26 @@
+body{
+  background-color: #c1f5db;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: fantasy;
+  color: #014020;
+
+}
+p{
+  line-height: 5px;
+}
+li{
+  font-family: cursive;
+}
+table ,td, tr{
+  border: 5px solid #014020;
+}
+
+.head{
+  background-color: #1dbd00;
+}
+.skills{
+  background-color: #74c765;
+}

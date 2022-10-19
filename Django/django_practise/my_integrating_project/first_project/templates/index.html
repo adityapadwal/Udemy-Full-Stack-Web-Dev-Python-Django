@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+  </head>
+  <body>
+    <h1>Hello! This is the home page!!!</h1>
+    <a href="{% url 'tiger'%}">Click this link to go to the contact page!</a>
+    <button  onclick="buttonFunc()" >Click Me</button>
+    <img src="{% static 'elephant.jfif' %}" alt="">
+
+    <script type="text/javascript" src="{% static 'main.js' %}"></script>
+  </body>
+</html>

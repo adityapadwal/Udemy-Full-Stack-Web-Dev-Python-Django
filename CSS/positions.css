@@ -1,0 +1,25 @@
+.posStatic{
+  position: static;
+  border: 3px solid green;
+  top: 100px;  /*will not work as it is static*/
+  width: 320px;
+  height: 300px;
+}
+.posRelative{
+  position: relative;
+  left: 70px;
+  width: 200px;
+  border: 3px solid red;
+}
+.posFixed{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border: 3px solid blue;
+}
+.posAbsolute{
+  position: absolute;
+  right: 1300px;
+  width: 125px;
+  border: 3px solid red;
+}

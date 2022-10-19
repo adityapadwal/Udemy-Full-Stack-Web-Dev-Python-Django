@@ -1,0 +1,35 @@
+class Warrior:
+    def __init__(self, name, strength, health):
+        self.name=name
+        self.strength=strength
+        self.health=health
+    def report(self):
+        print("Hi {}. Your strength is {} and your health is {}".format(self.name, self.strength, self.health))
+    def heal(self):
+        self.health+=1
+    def damage(self):
+        self.health-=1
+    def workout(self,parameter):
+        self.strength+=parameter
+warrior_one=Warrior("Regnald the warrior",10,100) 
+print("The name of the 1st warrior is: ",warrior_one.name)
+warrior_one.report()
+warrior_one.damage()
+warrior_one.damage()
+warrior_one.damage()
+print("After Damage: ")
+warrior_one.report()
+warrior_one.heal()
+warrior_one.heal()
+print("Ater healing:")
+warrior_one.report()
+warrior_one.workout(10)
+#warrior_one.workout()
+#warrior_one.workout()
+#warrior_one.workout()
+#warrior_one.workout()
+warrior_one.heal()
+print("After having an energy drink,")
+warrior_one.report()
+
+        

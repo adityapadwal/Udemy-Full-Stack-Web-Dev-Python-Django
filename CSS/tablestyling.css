@@ -1,0 +1,19 @@
+body{
+  background-color: #f2f792;
+}
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th{
+  padding: 10px;
+}
+td{
+  background-color: #ecf54c;
+}
+th{
+  background-color: #838732;
+}
+td:hover{
+  background-color:#a5a697;
+}

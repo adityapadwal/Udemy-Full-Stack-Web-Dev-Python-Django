@@ -1,0 +1,29 @@
+body{
+  background-color: #211f1f;
+  color: white;
+
+}
+h1{
+  font-family: serif;
+  text-align: center;
+}
+img{
+  padding: 50px;
+}
+.imageContainer{
+  position: relative;
+  left: 500px;
+  right:500px;
+}
+
+#Copyright{
+  position:absolute;
+  bottom: 10px;
+}
+div{
+  background-color:#5c5959;
+}
+p{
+  font-size: 18px;
+  color:#ffffff;
+}
